@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+table {
+  width: 100%;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+.searchDiv {
+  margin-bottom: 30px;
+}
+
+.searchDiv input {
+  font-size: larger;
+  background-color: white;
+  border: 2px solid grey;
+}
